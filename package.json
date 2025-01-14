@@ -1,0 +1,450 @@
+{
+
+    "author": "Pedro Herrera",
+    "description": "This module allows you to work with the Google Gemini AI API",
+    "description_lang":{
+      "en": "This module allows you to work with the Google Gemini AI API",
+      "es": "Este módulo te permite trabajar con la API de inteligencia artificial de Google Gemini",
+      "pr": "Este módulo permite trabalhar com a API de IA do Google Gemini"
+  },
+    "disclaimer": "THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY APPLICABLE LAW. EXCEPT WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT HOLDERS AND/OR OTHER PARTIES PROVIDE THE PROGRAM “AS IS” WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM IS WITH YOU. SHOULD THE PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY SERVICING, REPAIR OR CORRECTION.",
+    "version": "0.0.1",
+    "license": "MIT",
+    "homepage": "http://rocketbot.com",
+    "linux": true,
+    "windows": true,
+    "mac": true,
+    "docker": true,
+    "name": "JsonAdvanced",
+    "dependencies": {},
+    "title": {
+      "en": "JsonAdvanced",
+      "es": "JsonAdvanced",
+      "pr": "JsonAdvanced"
+    },
+    "icon": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAABGNJREFUeJzt2luIVVUYB/Cf1kiGVNo9mMwKk4xMu9HVRLJ6kBqohyLrpYKiC0F0h1KDLk9BUBSSgkhUbxFZomWG3TSpl8KJSArtYnZhjMh0Tg9rbc72NOecvfc5zp5p9h+Gfb61v+9b3/rvdf3WUKFChQqdYw5+RW0E/A07zsKugsGOegLOxC+pyt8b7gBSKETA+A4qPAPrcCT6O/AzKjEdOwTGV+MKo7QHHFygoulYj+PxDq7BBS30z8VJBeopiusa5E3Y1i3nU6OzGtZiYiy/TPMesEK5k+LNrRqUZw7ojQ2cio3Cl/8rh/2IRFYCeoVuPw0f4krsTr1PhlIp63AnyELACcJsfzI+xVX2bzzMj8/vctQ9D6fF3x8LS2qPQPKylN77uBCHxFgeUO95N2AK3o7yt1F+MEccLXEsvhK+7Gc4ouH9cXgUezGIuUP4WGHosXl29F/DeRiHJ3GK8GH68QkmxHruRV/02RftFka5F3/g6yjfJeMc0G4VWIcZ8fcc/NZEr4bHhK9VBP8IBBwVffwtNPrh+G4tZkbdG7EKX6bsf8L9uC9vxe2GwMw27weEpXABluatPIUXcSpuxSy8Jqww/UKvS8dxfnxuTZU9gpfwbgcxDIlu7K9XpPx8hA3x9xz1IVAThtBG9QauxtVCz+hP6d0U329WHwJ7MBuHRznzEOhkK1wES4U9w+PC3NIby2cLw/F7YZklEHKPQMDlWIxFWIlLhTkkQQ+Wq0+OXVuNut0DPlffFU7Bmli+IVU+XvjKe+O7V9WJOgjXYqf9J8HE/+Io3yljD2iHbhNQwz5sF7pt48rws6HzCoPRZndD+UCD/r4o/ykjAUXOAp1ivLCeD4Wjm5SPa2IzaQjfk/MGM6YxHD1gEw4dhnqSU+DrDeXbOnFaSpqpIIY9I/S/QEVA2QGUjYqAsgMoGxUBZQdQNg4EARcJ5/qp7RSbYAHuENLvpSPv5uKplM2qAvWNE460NSErNL+1+n44IJu2PE4nCaexmpDWanVZ0gq34Jvo560cdqUTMCOl33hKy4tF0c8XOWxK3wr3xOce/02b58XvHdpnRjcJSE58zTLHeZD4mNAFXy3RTQKSHN32LvhKfEzDMV3wVxhZx1WfcDFRUyA33wTro78tODGDfqmTYJKDWycsZd3AZOHCo4bnM+iXSsASIXE5KNzcdAPLY907cE4G/dKXwWei7uaG8qeFm56kEQ9FeUGUb4vy9Smbw9SzxrMOQKyZkcfpJVF3V0P5j7H89ihvifKSKL8R5ZdTNsmeIs9yWoiAbiZFB+Kz8Qb5WWE2/yDKy4SvuibKr+AHvJmySa64Sv8HjDysnp7S72mj2w5zo5+dOWxKHwLpi87n1K+z8mKe+gXq1ja6aZROAKEbJzYrC9aZHIRquDuH3YggYKJwo/sCLi5Y50I8ob5KZMWIIKBMlH4aHJWoCCg7gLJREVB2AGWjIqDsAMrGmCcg62lwtGyGcmPM94AKFSqMbfwLqMKhzCBbqocAAAAASUVORK5CYII=",
+    "children": [
+      {
+        "en": {
+          "title": "Add to Json",
+          "description": "Add a key-value to a Json in a specific path",
+          "title_options": null,
+          "options": null
+        },
+        "es": {
+          "title": "Agregar a Json",
+          "description": "Agrega un par clave-valor a un Json en un camino específico",
+          "title_options": null,
+          "options": null
+        },
+        "pr": {
+          "title": "Adicionar ao Json",
+          "description": "Adicione uma chave-valor a um Json em um caminho específico",
+          "title_options": null,
+          "options": null
+        },
+        "form": {
+          "css": "modal-lg",
+          "inputs": [
+            {
+              "type": "file_select",
+              "placeholder": {
+                "es": "Selecciona el archivo Json",
+                "en": "Select the Json file",
+                "pr": "Selecione o arquivo Json"
+              },
+              "description": {
+                "es": "Selecciona el archivo Json donde se agregará la clave-valor",
+                "en": "Select the Json file where the key-value will be added",
+                "pr": "Selecione o arquivo Json onde a chave-valor será adicionada"
+              },
+              "title": {
+                "es": "Archivo Json",
+                "en": "Json file",
+                "pr": "Arquivo Json"
+              },
+              "id": "path",
+              "css": "col-md-6"
+            },
+            {
+                "type": "input",
+                "placeholder": {
+                  "es": "ruta en archivo Json",
+                  "en": "path in Json file",
+                  "pr": "caminho no arquivo Json"
+                },
+                "description": {
+                  "es": "Ruta en el archivo Json donde se agregará la clave-valor",
+                  "en": "Path in the Json file where the key-value will be added",
+                  "pr": "Caminho no arquivo Json onde a chave-valor será adicionada"
+                },
+                "title": {
+                  "es": "Ruta en archivo Json",
+                  "en": "Path in Json file",
+                  "pr": "Caminho no arquivo Json"
+                },
+                "remove_vars": false,
+                "id": "path_json",
+                "css": "col-md-6"
+            },
+            {
+              "type": "input",
+              "placeholder": {
+                "es": "result",
+                "en": "result",
+                "pr": "result"
+              },
+              "description": {
+                "es": "Variable donde se almacenará el resultado de la conexión",
+                "en": "Variable where the connection result will be stored",
+                "pr": "Variável onde o resultado da conexão será armazenado"
+              },
+              "title": {
+                "es": "Asignar resultado a variable",
+                "en": "Assign result to variable",
+                "pr": "Atribuir resultado à variável"
+              },
+              "remove_vars": true,
+              "id": "result",
+              "css": "col-md-6"
+            },
+            {
+                "type": "input",
+                "placeholder": {
+                  "es": "Escribe la clave a agregar",
+                  "en": "Write the key to add",
+                  "pr": "Escreva a chave a adicionar"
+                },
+                "description": {
+                  "es": "Escribe la clave que se agregará al archivo Json",
+                  "en": "Write the key that will be added to the Json file",
+                  "pr": "Escreva a chave que será adicionada ao arquivo Json"
+                },
+                "title": {
+                  "es": "Clave",
+                  "en": "Key",
+                  "pr": "Chave"
+                },
+                "remove_vars": false,
+                "id": "key",
+                "css": "col-md-6"
+            },
+            {
+                "type": "textarea",
+                "placeholder": {
+                  "es": "Escribe el valor a agregar",
+                  "en": "Write the value to add",
+                  "pr": "Escreva o valor a adicionar"
+                },
+                "description": {
+                  "es": "Escribe el valor que se agregará al archivo Json",
+                  "en": "Write the value that will be added to the Json file",
+                  "pr": "Escreva o valor que será adicionados ao arquivo Json"
+                },
+                "title": {
+                  "es": "Valor",
+                  "en": "Value",
+                  "pr": "Valor"
+                },
+                "remove_vars": false,
+                "id": "value",
+                "css": "col-md-6"
+            },
+            {
+                "type": "file_new",
+                "placeholder": {
+                  "es": "Selecciona la ruta del nuevo archivo Json",
+                  "en": "Select the path of the new Json file",
+                  "pr": "Selecione o caminho do novo arquivo Json"
+                },
+                "description": {
+                  "es": "Selecciona la ruta donde se guardará el nuevo archivo Json",
+                  "en": "Select the path where the new Json file will be saved",
+                  "pr": "Selecione o caminho onde o novo arquivo Json será salvo"
+                },
+                "title": {
+                  "es": "Ruta del nuevo archivo Json",
+                  "en": "Path of the new Json file",
+                  "pr": "Caminho do novo arquivo Json"
+                },
+                "extensions": [
+                    [
+                        "Json files",
+                        "*.json"
+                    ]
+                ],
+                "default_extension": ".json",
+                "id": "new_path_json",
+                "css": "col-md-6"
+              }
+          ]
+        },
+        "video_youtube": "",
+        "icon": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAABGNJREFUeJzt2luIVVUYB/Cf1kiGVNo9mMwKk4xMu9HVRLJ6kBqohyLrpYKiC0F0h1KDLk9BUBSSgkhUbxFZomWG3TSpl8KJSArtYnZhjMh0Tg9rbc72NOecvfc5zp5p9h+Gfb61v+9b3/rvdf3WUKFChQqdYw5+RW0E/A07zsKugsGOegLOxC+pyt8b7gBSKETA+A4qPAPrcCT6O/AzKjEdOwTGV+MKo7QHHFygoulYj+PxDq7BBS30z8VJBeopiusa5E3Y1i3nU6OzGtZiYiy/TPMesEK5k+LNrRqUZw7ojQ2cio3Cl/8rh/2IRFYCeoVuPw0f4krsTr1PhlIp63AnyELACcJsfzI+xVX2bzzMj8/vctQ9D6fF3x8LS2qPQPKylN77uBCHxFgeUO95N2AK3o7yt1F+MEccLXEsvhK+7Gc4ouH9cXgUezGIuUP4WGHosXl29F/DeRiHJ3GK8GH68QkmxHruRV/02RftFka5F3/g6yjfJeMc0G4VWIcZ8fcc/NZEr4bHhK9VBP8IBBwVffwtNPrh+G4tZkbdG7EKX6bsf8L9uC9vxe2GwMw27weEpXABluatPIUXcSpuxSy8Jqww/UKvS8dxfnxuTZU9gpfwbgcxDIlu7K9XpPx8hA3x9xz1IVAThtBG9QauxtVCz+hP6d0U329WHwJ7MBuHRznzEOhkK1wES4U9w+PC3NIby2cLw/F7YZklEHKPQMDlWIxFWIlLhTkkQQ+Wq0+OXVuNut0DPlffFU7Bmli+IVU+XvjKe+O7V9WJOgjXYqf9J8HE/+Io3yljD2iHbhNQwz5sF7pt48rws6HzCoPRZndD+UCD/r4o/ykjAUXOAp1ivLCeD4Wjm5SPa2IzaQjfk/MGM6YxHD1gEw4dhnqSU+DrDeXbOnFaSpqpIIY9I/S/QEVA2QGUjYqAsgMoGxUBZQdQNg4EARcJ5/qp7RSbYAHuENLvpSPv5uKplM2qAvWNE460NSErNL+1+n44IJu2PE4nCaexmpDWanVZ0gq34Jvo560cdqUTMCOl33hKy4tF0c8XOWxK3wr3xOce/02b58XvHdpnRjcJSE58zTLHeZD4mNAFXy3RTQKSHN32LvhKfEzDMV3wVxhZx1WfcDFRUyA33wTro78tODGDfqmTYJKDWycsZd3AZOHCo4bnM+iXSsASIXE5KNzcdAPLY907cE4G/dKXwWei7uaG8qeFm56kEQ9FeUGUb4vy9Smbw9SzxrMOQKyZkcfpJVF3V0P5j7H89ihvifKSKL8R5ZdTNsmeIs9yWoiAbiZFB+Kz8Qb5WWE2/yDKy4SvuibKr+AHvJmySa64Sv8HjDysnp7S72mj2w5zo5+dOWxKHwLpi87n1K+z8mKe+gXq1ja6aZROAKEbJzYrC9aZHIRquDuH3YggYKJwo/sCLi5Y50I8ob5KZMWIIKBMlH4aHJWoCCg7gLJREVB2AGWjIqDsAMrGmCcg62lwtGyGcmPM94AKFSqMbfwLqMKhzCBbqocAAAAASUVORK5CYII=",
+        "module": "add_to_json",
+        "module_name": "JsonAdvanced",
+        "visible": true,
+        "options": false,
+        "father": "module",
+        "group": "scripts",
+        "linux": true,
+        "windows": true,
+        "mac": true,
+        "docker": true
+      },
+      {
+        "en": {
+          "title": "Delete from Json",
+          "description": "Delete a key-value to a Json in a specific path",
+          "title_options": null,
+          "options": null
+        },
+        "es": {
+          "title": "Elimina desde Json",
+          "description": "Elimina un par clave-valor a un Json en un camino específico",
+          "title_options": null,
+          "options": null
+        },
+        "pr": {
+          "title": "Excluir do Json",
+          "description": "Exclua uma chave-valor de um Json em um caminho específico",
+          "title_options": null,
+          "options": null
+        },
+        "form": {
+          "css": "modal-lg",
+          "inputs": [
+            {
+              "type": "file_select",
+              "placeholder": {
+                "es": "Selecciona el archivo Json",
+                "en": "Select the Json file",
+                "pr": "Selecione o arquivo Json"
+              },
+              "description": {
+                "es": "Selecciona el archivo Json donde se agregará la clave-valor",
+                "en": "Select the Json file where the key-value will be added",
+                "pr": "Selecione o arquivo Json onde a chave-valor será adicionada"
+              },
+              "title": {
+                "es": "Archivo Json",
+                "en": "Json file",
+                "pr": "Arquivo Json"
+              },
+              "id": "path",
+              "css": "col-md-6"
+            },
+            {
+                "type": "input",
+                "placeholder": {
+                  "es": "ruta en archivo Json",
+                  "en": "path in Json file",
+                  "pr": "caminho no arquivo Json"
+                },
+                "description": {
+                  "es": "Ruta en el archivo Json donde se agregará la clave-valor",
+                  "en": "Path in the Json file where the key-value will be added",
+                  "pr": "Caminho no arquivo Json onde a chave-valor será adicionada"
+                },
+                "title": {
+                  "es": "Ruta en archivo Json",
+                  "en": "Path in Json file",
+                  "pr": "Caminho no arquivo Json"
+                },
+                "remove_vars": false,
+                "id": "path_json",
+                "css": "col-md-6"
+            },
+            {
+              "type": "input",
+              "placeholder": {
+                "es": "Escribe la clave a eliminar",
+                "en": "Write the key to delete",
+                "pr": "Escreva a chave a excluir"
+              },
+              "description": {
+                "es": "Escribe la clave que se eliminará del archivo Json",
+                "en": "Write the key that will be deleted from the Json file",
+                "pr": "Escreva a chave que será excluída do arquivo Json"
+              },
+              "title": {
+                "es": "Clave",
+                "en": "Key",
+                "pr": "Chave"
+              },
+              "remove_vars": false,
+              "id": "key",
+              "css": "col-md-6"
+            },
+            {
+              "type": "input",
+              "placeholder": {
+                "es": "result",
+                "en": "result",
+                "pr": "result"
+              },
+              "description": {
+                "es": "Variable donde se almacenará el resultado de la conexión",
+                "en": "Variable where the connection result will be stored",
+                "pr": "Variável onde o resultado da conexão será armazenado"
+              },
+              "title": {
+                "es": "Asignar resultado a variable",
+                "en": "Assign result to variable",
+                "pr": "Atribuir resultado à variável"
+              },
+              "remove_vars": true,
+              "id": "result",
+              "css": "col-md-6"
+            },
+            {
+                "type": "file_new",
+                "placeholder": {
+                  "es": "Selecciona la ruta del nuevo archivo Json",
+                  "en": "Select the path of the new Json file",
+                  "pr": "Selecione o caminho do novo arquivo Json"
+                },
+                "description": {
+                  "es": "Selecciona la ruta donde se guardará el nuevo archivo Json",
+                  "en": "Select the path where the new Json file will be saved",
+                  "pr": "Selecione o caminho onde o novo arquivo Json será salvo"
+                },
+                "title": {
+                  "es": "Ruta del nuevo archivo Json",
+                  "en": "Path of the new Json file",
+                  "pr": "Caminho do novo arquivo Json"
+                },
+                "extensions": [
+                    [
+                        "Json files",
+                        "*.json"
+                    ]
+                ],
+                "default_extension": ".json",
+                "id": "new_path_json",
+                "css": "col-md-6"
+            }
+          ]
+        },
+        "video_youtube": "",
+        "icon": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAABGNJREFUeJzt2luIVVUYB/Cf1kiGVNo9mMwKk4xMu9HVRLJ6kBqohyLrpYKiC0F0h1KDLk9BUBSSgkhUbxFZomWG3TSpl8KJSArtYnZhjMh0Tg9rbc72NOecvfc5zp5p9h+Gfb61v+9b3/rvdf3WUKFChQqdYw5+RW0E/A07zsKugsGOegLOxC+pyt8b7gBSKETA+A4qPAPrcCT6O/AzKjEdOwTGV+MKo7QHHFygoulYj+PxDq7BBS30z8VJBeopiusa5E3Y1i3nU6OzGtZiYiy/TPMesEK5k+LNrRqUZw7ojQ2cio3Cl/8rh/2IRFYCeoVuPw0f4krsTr1PhlIp63AnyELACcJsfzI+xVX2bzzMj8/vctQ9D6fF3x8LS2qPQPKylN77uBCHxFgeUO95N2AK3o7yt1F+MEccLXEsvhK+7Gc4ouH9cXgUezGIuUP4WGHosXl29F/DeRiHJ3GK8GH68QkmxHruRV/02RftFka5F3/g6yjfJeMc0G4VWIcZ8fcc/NZEr4bHhK9VBP8IBBwVffwtNPrh+G4tZkbdG7EKX6bsf8L9uC9vxe2GwMw27weEpXABluatPIUXcSpuxSy8Jqww/UKvS8dxfnxuTZU9gpfwbgcxDIlu7K9XpPx8hA3x9xz1IVAThtBG9QauxtVCz+hP6d0U329WHwJ7MBuHRznzEOhkK1wES4U9w+PC3NIby2cLw/F7YZklEHKPQMDlWIxFWIlLhTkkQQ+Wq0+OXVuNut0DPlffFU7Bmli+IVU+XvjKe+O7V9WJOgjXYqf9J8HE/+Io3yljD2iHbhNQwz5sF7pt48rws6HzCoPRZndD+UCD/r4o/ykjAUXOAp1ivLCeD4Wjm5SPa2IzaQjfk/MGM6YxHD1gEw4dhnqSU+DrDeXbOnFaSpqpIIY9I/S/QEVA2QGUjYqAsgMoGxUBZQdQNg4EARcJ5/qp7RSbYAHuENLvpSPv5uKplM2qAvWNE460NSErNL+1+n44IJu2PE4nCaexmpDWanVZ0gq34Jvo560cdqUTMCOl33hKy4tF0c8XOWxK3wr3xOce/02b58XvHdpnRjcJSE58zTLHeZD4mNAFXy3RTQKSHN32LvhKfEzDMV3wVxhZx1WfcDFRUyA33wTro78tODGDfqmTYJKDWycsZd3AZOHCo4bnM+iXSsASIXE5KNzcdAPLY907cE4G/dKXwWei7uaG8qeFm56kEQ9FeUGUb4vy9Smbw9SzxrMOQKyZkcfpJVF3V0P5j7H89ihvifKSKL8R5ZdTNsmeIs9yWoiAbiZFB+Kz8Qb5WWE2/yDKy4SvuibKr+AHvJmySa64Sv8HjDysnp7S72mj2w5zo5+dOWxKHwLpi87n1K+z8mKe+gXq1ja6aZROAKEbJzYrC9aZHIRquDuH3YggYKJwo/sCLi5Y50I8ob5KZMWIIKBMlH4aHJWoCCg7gLJREVB2AGWjIqDsAMrGmCcg62lwtGyGcmPM94AKFSqMbfwLqMKhzCBbqocAAAAASUVORK5CYII=",
+        "module": "delete_from_json",
+        "module_name": "JsonAdvanced",
+        "visible": true,
+        "options": false,
+        "father": "module",
+        "group": "scripts",
+        "linux": true,
+        "windows": true,
+        "mac": true,
+        "docker": true
+      },
+      {
+        "en": {
+          "title": "Create Json",
+          "description": "Create a Json file",
+          "title_options": null,
+          "options": null
+        },
+        "es": {
+          "title": "Crear Json",
+          "description": "Crea un archivo Json",
+          "title_options": null,
+          "options": null
+        },
+        "pr": {
+          "title": "Criar Json",
+          "description": "Crie um arquivo Json",
+          "title_options": null,
+          "options": null
+        },
+        "form": {
+          "css": "modal-lg",
+          "inputs": [
+            {
+                "type": "textarea",
+                "placeholder": {
+                  "es": "Json a crear",
+                  "en": "Json to create",
+                  "pr": "Json para criar"
+                },
+                "description": {
+                  "es": "Escribe el Json que se creará",
+                  "en": "Write the Json that will be created",
+                  "pr": "Escreva o Json que será criado"
+                },
+                "title": {
+                  "es": "Json",
+                  "en": "Json",
+                  "pr": "Json"
+                },
+                "remove_vars": false,
+                "id": "json",
+                "css": "col-md-6"
+            },
+            {
+              "type": "input",
+              "placeholder": {
+                "es": "result",
+                "en": "result",
+                "pr": "result"
+              },
+              "description": {
+                "es": "Variable donde se almacenará el resultado de la conexión",
+                "en": "Variable where the connection result will be stored",
+                "pr": "Variável onde o resultado da conexão será armazenado"
+              },
+              "title": {
+                "es": "Asignar resultado a variable",
+                "en": "Assign result to variable",
+                "pr": "Atribuir resultado à variável"
+              },
+              "remove_vars": true,
+              "id": "result",
+              "css": "col-md-6"
+            },
+            {
+                "type": "file_new",
+                "placeholder": {
+                  "es": "Selecciona la ruta del nuevo archivo Json",
+                  "en": "Select the path of the new Json file",
+                  "pr": "Selecione o caminho do novo arquivo Json"
+                },
+                "description": {
+                  "es": "Selecciona la ruta donde se guardará el nuevo archivo Json",
+                  "en": "Select the path where the new Json file will be saved",
+                  "pr": "Selecione o caminho onde o novo arquivo Json será salvo"
+                },
+                "title": {
+                  "es": "Ruta del nuevo archivo Json",
+                  "en": "Path of the new Json file",
+                  "pr": "Caminho do novo arquivo Json"
+                },
+                "extensions": [
+                    [
+                        "Json files",
+                        "*.json"
+                    ]
+                ],
+                "default_extension": ".json",
+                "id": "new_path_json",
+                "css": "col-md-6"
+            }
+          ]
+        },
+        "video_youtube": "",
+        "icon": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAABGNJREFUeJzt2luIVVUYB/Cf1kiGVNo9mMwKk4xMu9HVRLJ6kBqohyLrpYKiC0F0h1KDLk9BUBSSgkhUbxFZomWG3TSpl8KJSArtYnZhjMh0Tg9rbc72NOecvfc5zp5p9h+Gfb61v+9b3/rvdf3WUKFChQqdYw5+RW0E/A07zsKugsGOegLOxC+pyt8b7gBSKETA+A4qPAPrcCT6O/AzKjEdOwTGV+MKo7QHHFygoulYj+PxDq7BBS30z8VJBeopiusa5E3Y1i3nU6OzGtZiYiy/TPMesEK5k+LNrRqUZw7ojQ2cio3Cl/8rh/2IRFYCeoVuPw0f4krsTr1PhlIp63AnyELACcJsfzI+xVX2bzzMj8/vctQ9D6fF3x8LS2qPQPKylN77uBCHxFgeUO95N2AK3o7yt1F+MEccLXEsvhK+7Gc4ouH9cXgUezGIuUP4WGHosXl29F/DeRiHJ3GK8GH68QkmxHruRV/02RftFka5F3/g6yjfJeMc0G4VWIcZ8fcc/NZEr4bHhK9VBP8IBBwVffwtNPrh+G4tZkbdG7EKX6bsf8L9uC9vxe2GwMw27weEpXABluatPIUXcSpuxSy8Jqww/UKvS8dxfnxuTZU9gpfwbgcxDIlu7K9XpPx8hA3x9xz1IVAThtBG9QauxtVCz+hP6d0U329WHwJ7MBuHRznzEOhkK1wES4U9w+PC3NIby2cLw/F7YZklEHKPQMDlWIxFWIlLhTkkQQ+Wq0+OXVuNut0DPlffFU7Bmli+IVU+XvjKe+O7V9WJOgjXYqf9J8HE/+Io3yljD2iHbhNQwz5sF7pt48rws6HzCoPRZndD+UCD/r4o/ykjAUXOAp1ivLCeD4Wjm5SPa2IzaQjfk/MGM6YxHD1gEw4dhnqSU+DrDeXbOnFaSpqpIIY9I/S/QEVA2QGUjYqAsgMoGxUBZQdQNg4EARcJ5/qp7RSbYAHuENLvpSPv5uKplM2qAvWNE460NSErNL+1+n44IJu2PE4nCaexmpDWanVZ0gq34Jvo560cdqUTMCOl33hKy4tF0c8XOWxK3wr3xOce/02b58XvHdpnRjcJSE58zTLHeZD4mNAFXy3RTQKSHN32LvhKfEzDMV3wVxhZx1WfcDFRUyA33wTro78tODGDfqmTYJKDWycsZd3AZOHCo4bnM+iXSsASIXE5KNzcdAPLY907cE4G/dKXwWei7uaG8qeFm56kEQ9FeUGUb4vy9Smbw9SzxrMOQKyZkcfpJVF3V0P5j7H89ihvifKSKL8R5ZdTNsmeIs9yWoiAbiZFB+Kz8Qb5WWE2/yDKy4SvuibKr+AHvJmySa64Sv8HjDysnp7S72mj2w5zo5+dOWxKHwLpi87n1K+z8mKe+gXq1ja6aZROAKEbJzYrC9aZHIRquDuH3YggYKJwo/sCLi5Y50I8ob5KZMWIIKBMlH4aHJWoCCg7gLJREVB2AGWjIqDsAMrGmCcg62lwtGyGcmPM94AKFSqMbfwLqMKhzCBbqocAAAAASUVORK5CYII=",
+        "module": "create_json",
+        "module_name": "JsonAdvanced",
+        "visible": true,
+        "options": false,
+        "father": "module",
+        "group": "scripts",
+        "linux": true,
+        "windows": true,
+        "mac": true,
+        "docker": true
+      }
+    ]
+}
+  
